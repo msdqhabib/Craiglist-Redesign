@@ -25,10 +25,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-gcoqraa-mua%@ag2mb=n#uy%vpbd21=#sm+$)5#+ef09$7ueq)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-DEBUG_PROPAGATE_EXCEPTIONS = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['craiglist-pakistan.herokuapp.com']
+
+ALLOWED_HOSTS = ['craiglist-pk.herokuapp.com']
 
 
 # Application definition
