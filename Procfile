@@ -1,1 +1,1 @@
-web: gunicorn craig_list.wsgi --log-file -
+web: gunicorn --log-file=- craig_list.wsgi:application
