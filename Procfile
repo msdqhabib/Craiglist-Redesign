@@ -1,1 +1,1 @@
-web:gunicorn craig_list.wsgi
+web: gunicorn craig_list.wsgi
