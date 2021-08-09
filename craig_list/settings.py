@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'craig_list.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd5glfmu7626n39',
+        'USER': 'okzekiqotgvpgy',
+        'PASSWORD': '81d83fcfe0008af1702191112d5940747c4b432111828570933a1942e9abb895',
+        'HOST': 'ec2-35-174-56-18.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
