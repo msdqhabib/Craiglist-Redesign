@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-gcoqraa-mua%@ag2mb=n#uy%vpbd21=#sm+$)5#+ef09$7ueq)
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['127.0.0.1','craiglist-pk.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','craiglist-pak.herokuapp.com']
 
 
 # Application definition
